@@ -1,94 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="60.248">
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi" time="17.852">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone 7" icin arama yapar.............................................skipped
-Then sonucun "iphone 7" icerdigini kontrol eder.............................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="46.404">
+<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi" time="26.241">
+<system-out><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
+And "iphone 7" icin arama yapar.............................................passed
+Then sonucun "iphone 7" icerdigini kontrol eder.............................passed
+And kullanici anasayfayi kapatir............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 2" time="2.318">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone 7 plus" icin arama yapar........................................skipped
-Then sonucun "iphone 7 plus" icerdigini kontrol eder........................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
-</testcase>
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 3" time="2.292">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone 8" icin arama yapar.............................................skipped
-Then sonucun "iphone 8" icerdigini kontrol eder.............................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
-</testcase>
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 4" time="3.553">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone 8 plus" icin arama yapar........................................skipped
-Then sonucun "iphone 8 plus" icerdigini kontrol eder........................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
-</testcase>
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 5" time="1.898">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone x" icin arama yapar.............................................skipped
-Then sonucun "iphone x" icerdigini kontrol eder.............................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
-</testcase>
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 6" time="19.596">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone xr" icin arama yapar............................................skipped
-Then sonucun "iphone xr" icerdigini kontrol eder............................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
-</testcase>
-<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 7" time="11.779">
-<failure message="" type="java.lang.NullPointerException"><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
-And kullanici Accepteren butonuna tiklar....................................failed
-And "iphone xs" icin arama yapar............................................skipped
-Then sonucun "iphone xs" icerdigini kontrol eder............................skipped
-And kullanici anasayfayi kapatir............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)
-	at ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)
-]]></failure>
+<testcase classname="US01 marktplaats page arama" name="Tc01 arama testi 2" time="19.908">
+<system-out><![CDATA[Given kullanici marktplaats anasayfaya gider................................passed
+And "iphone x" icin arama yapar.............................................passed
+Then sonucun "iphone x" icerdigini kontrol eder.............................passed
+And kullanici anasayfayi kapatir............................................passed
+]]></system-out>
 </testcase>
 </testsuite>

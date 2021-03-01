@@ -3,7 +3,7 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2021-03-01T18:00:14.991Z",
+        "start_timestamp": "2021-03-01T18:52:33.715Z",
         "line": 14,
         "name": "Tc01 arama testi",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17579000000,
+              "duration": 13561000000,
               "status": "passed"
             },
             "line": 6,
@@ -25,20 +25,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "duration": 6000000,
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
+              "duration": 12307000000,
+              "status": "passed"
             },
             "line": 8,
             "name": "\"iphone 7\" icin arama yapar",
@@ -56,7 +44,7 @@
           {
             "result": {
               "duration": 1000000,
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 9,
             "name": "sonucun \"iphone 7\" icerdigini kontrol eder",
@@ -73,7 +61,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 266000000,
+              "status": "passed"
             },
             "line": 10,
             "name": "kullanici anasayfayi kapatir",
@@ -90,7 +79,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-03-01T18:00:32.955Z",
+        "start_timestamp": "2021-03-01T18:52:59.981Z",
         "line": 15,
         "name": "Tc01 arama testi",
         "description": "",
@@ -100,7 +89,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2302000000,
+              "duration": 8347000000,
               "status": "passed"
             },
             "line": 6,
@@ -112,279 +101,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "duration": 3000000,
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2000000,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "\"iphone 7 plus\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone 7 plus\"",
-                  "offset": 0
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "sonucun \"iphone 7 plus\" icerdigini kontrol eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone 7 plus\"",
-                  "offset": 8
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.sonucun_icerdigini_kontrol_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "kullanici anasayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_anasayfayi_kapatir()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-03-01T18:00:35.288Z",
-        "line": 16,
-        "name": "Tc01 arama testi",
-        "description": "",
-        "id": "us01-marktplaats-page-arama;tc01-arama-testi;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2283000000,
+              "duration": 11423000000,
               "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici marktplaats anasayfaya gider",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_marktplaats_anasayfaya_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "duration": 1000000,
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "\"iphone 8\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone 8\"",
-                  "offset": 0
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "sonucun \"iphone 8\" icerdigini kontrol eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone 8\"",
-                  "offset": 8
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.sonucun_icerdigini_kontrol_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "kullanici anasayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_anasayfayi_kapatir()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-03-01T18:00:37.599Z",
-        "line": 17,
-        "name": "Tc01 arama testi",
-        "description": "",
-        "id": "us01-marktplaats-page-arama;tc01-arama-testi;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3547000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici marktplaats anasayfaya gider",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_marktplaats_anasayfaya_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "\"iphone 8 plus\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone 8 plus\"",
-                  "offset": 0
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "sonucun \"iphone 8 plus\" icerdigini kontrol eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone 8 plus\"",
-                  "offset": 8
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.sonucun_icerdigini_kontrol_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "kullanici anasayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_anasayfayi_kapatir()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-03-01T18:00:41.161Z",
-        "line": 18,
-        "name": "Tc01 arama testi",
-        "description": "",
-        "id": "us01-marktplaats-page-arama;tc01-arama-testi;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1893000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici marktplaats anasayfaya gider",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_marktplaats_anasayfaya_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
             },
             "line": 8,
             "name": "\"iphone x\" icin arama yapar",
@@ -401,8 +119,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "skipped"
+              "status": "passed"
             },
             "line": 9,
             "name": "sonucun \"iphone x\" icerdigini kontrol eder",
@@ -419,179 +136,8 @@
           },
           {
             "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "kullanici anasayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_anasayfayi_kapatir()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-03-01T18:00:43.070Z",
-        "line": 19,
-        "name": "Tc01 arama testi",
-        "description": "",
-        "id": "us01-marktplaats-page-arama;tc01-arama-testi;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 19589000000,
+              "duration": 133000000,
               "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici marktplaats anasayfaya gider",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_marktplaats_anasayfaya_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "duration": 1000000,
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "\"iphone xr\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone xr\"",
-                  "offset": 0
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "sonucun \"iphone xr\" icerdigini kontrol eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone xr\"",
-                  "offset": 8
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.sonucun_icerdigini_kontrol_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "kullanici anasayfayi kapatir",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_anasayfayi_kapatir()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-03-01T18:01:02.672Z",
-        "line": 20,
-        "name": "Tc01 arama testi",
-        "description": "",
-        "id": "us01-marktplaats-page-arama;tc01-arama-testi;;8",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 11772000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "kullanici marktplaats anasayfaya gider",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_marktplaats_anasayfaya_gider()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.NullPointerException\r\n\tat stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar(MarktplaatsStepDefinitions.java:22)\r\n\tat ✽.kullanici Accepteren butonuna tiklar(file:///C:/Users/user/IdeaProjects/TechProEd_Selenium_B1/marktplaats/src/test/resources/features/US_01_iphone7.feature:7)\r\n",
-              "duration": 1000000,
-              "status": "failed"
-            },
-            "line": 7,
-            "name": "kullanici Accepteren butonuna tiklar",
-            "match": {
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.kullanici_accepteren_butonuna_tiklar()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "\"iphone xs\" icin arama yapar",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone xs\"",
-                  "offset": 0
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.icin_arama_yapar(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "sonucun \"iphone xs\" icerdigini kontrol eder",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"iphone xs\"",
-                  "offset": 8
-                }
-              ],
-              "location": "stepdefinitions.MarktplaatsStepDefinitions.sonucun_icerdigini_kontrol_eder(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
             },
             "line": 10,
             "name": "kullanici anasayfayi kapatir",

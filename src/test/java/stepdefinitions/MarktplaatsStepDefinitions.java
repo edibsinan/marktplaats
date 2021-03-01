@@ -18,17 +18,16 @@ public class MarktplaatsStepDefinitions {
     public void kullanici_marktplaats_anasayfaya_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("marktplaats_url"));
     }
-    @Given("kullanici Accepteren butonuna tiklar")
-    public void kullanici_accepteren_butonuna_tiklar() {
-        marktplaatsPages.accepterenButton.click();
+
+
+
+    @Given("{string} icin arama yapar")
+    public void icin_arama_yapar(String string) {
+        marktplaatsPages.searchbox.sendKeys(string+ Keys.ENTER);
     }
 
     @Then("sonucun {string} icerdigini kontrol eder")
     public void sonucun_icerdigini_kontrol_eder(String string) {
-        marktplaatsPages.searchbox.sendKeys(string+ Keys.ENTER);
-    }
-    @Given("{string} icin arama yapar")
-    public void icin_arama_yapar(String string) {
 
     }
 
